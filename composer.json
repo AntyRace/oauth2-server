@@ -9,6 +9,7 @@
         }
     ],
     "require": {
+        "php": ">=5.5.9",
         "lucadegasperi/oauth2-server-laravel": "5.0.*"
         },
     "autoload": {
@@ -19,5 +20,6 @@
             "dev-master": "0.1-dev"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
